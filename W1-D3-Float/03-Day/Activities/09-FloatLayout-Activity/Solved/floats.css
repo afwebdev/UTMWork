@@ -9,6 +9,8 @@
 
 body {
   font-size: 24px;
+  height: 100%;
+  width: 100;
 }
 
 header {
@@ -19,6 +21,7 @@ header {
 }
 
 section {
+  overflow: auto;
 }
 
 #left {
@@ -47,7 +50,6 @@ section {
 
 #full {
   margin-top: 1em;
-  float: left;
   background-color: #eee;
   width: 100%;
   padding: 1em;
